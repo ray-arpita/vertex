@@ -50,7 +50,7 @@ const renderSidebarItems = (
         <div className='mb-1' key={item.heading}>
           <AMMenu
             subHeading={item.heading}
-            ClassName='hide-menu leading-21 text-sidebar-foreground dark:text-sidebar-foreground bg-secondary font-bold uppercase text-xs p-2'
+            ClassName='hide-menu leading-21 text-sidebar-foreground dark:text-sidebar-foreground font-bold uppercase text-xs'
           />
         </div>
       )
@@ -63,7 +63,7 @@ const renderSidebarItems = (
           key={item.id}
           icon={iconElement}
           title={item.name}
-          ClassName='mt-0.5 bg-secondary  leading-21 text-sidebar-foreground dark:text-sidebar-foreground'>
+          ClassName='mt-0.5 text-sidebar-foreground dark:text-sidebar-foreground'>
           {renderSidebarItems(item.children, currentPath, onClose, true)}
         </AMSubmenu>
       )
@@ -125,7 +125,7 @@ const SidebarLayout = ({ onClose }: { onClose?: () => void }) => {
 
       {/* Sidebar items */}
 
-      <SimpleBar className='h-[calc(100vh-100px)] '>
+      <SimpleBar className='h-[calc(100vh-100px)]'>
         <div className='px-6'>
           {SidebarContent.map((section, index) => (
             <div key={index}>

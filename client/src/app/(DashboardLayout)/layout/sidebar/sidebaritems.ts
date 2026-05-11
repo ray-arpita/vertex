@@ -108,9 +108,193 @@ const SidebarContent: MenuItem[] = [
       },
     ],
   },
-
-
-
+  {
+    heading: 'AI',
+    children: [
+      {
+        name: 'Ai Table Builder',
+        icon: 'solar:server-linear',
+        id: uniqueId(),
+        url: 'https://tailwindbuilder.ai/table-builder',
+        isPro: false,
+      },
+      {
+        name: 'Ai Form Builder',
+        icon: 'solar:document-add-linear',
+        id: uniqueId(),
+        url: 'https://tailwindbuilder.ai/form-builder',
+        isPro: false,
+      },
+      {
+        id: uniqueId(),
+        name: 'Ai Chart Builder',
+        icon: 'solar:pie-chart-2-linear',
+        url: 'https://tailwindbuilder.ai/chart-builder',
+        isPro: false,
+      },
+    ],
+  },
+  {
+    heading: 'UI ELEMENTS',
+    children: [
+      {
+        name: 'ShadCn',
+        id: uniqueId(),
+        icon: 'solar:slash-square-linear',
+        children: [
+          {
+            id: uniqueId(),
+            name: 'Avatar',
+            url: 'https://tailwind-admin.com/components/shadcn/avatar',
+          },
+          {
+            id: uniqueId(),
+            name: 'Badge',
+            url: 'https://tailwind-admin.com/components/shadcn/badge',
+          },
+          {
+            id: uniqueId(),
+            name: 'Tooltip',
+            url: 'https://tailwind-admin.com/components/shadcn/tooltip',
+          },
+          {
+            id: uniqueId(),
+            name: 'Skeleton',
+            url: 'https://tailwind-admin.com/components/shadcn/skeleton',
+          },
+          {
+            id: uniqueId(),
+            name: 'Alert',
+            url: 'https://tailwind-admin.com/components/shadcn/alert',
+          },
+          {
+            id: uniqueId(),
+            name: 'Progressbar',
+            url: 'https://tailwind-admin.com/components/shadcn/progressbar',
+          },
+          {
+            id: uniqueId(),
+            name: 'Breadcrumb',
+            url: 'https://tailwind-admin.com/components/shadcn/breadcrumb',
+          },
+          {
+            id: uniqueId(),
+            name: 'Tab',
+            url: 'https://tailwind-admin.com/components/shadcn/tab',
+          },
+          {
+            id: uniqueId(),
+            name: 'Dropdown',
+            url: 'https://tailwind-admin.com/components/shadcn/dropdown',
+          },
+          {
+            id: uniqueId(),
+            name: 'Accordion',
+            url: 'https://tailwind-admin.com/components/shadcn/accordion',
+          },
+          {
+            id: uniqueId(),
+            name: 'Card',
+            url: 'https://tailwind-admin.com/components/shadcn/card',
+          },
+          {
+            id: uniqueId(),
+            name: 'Carousel',
+            url: 'https://tailwind-admin.com/components/shadcn/carousel',
+          },
+          {
+            id: uniqueId(),
+            name: 'Collapsible',
+            url: 'https://tailwind-admin.com/components/shadcn/collapsible',
+          },
+          {
+            id: uniqueId(),
+            name: 'Dialogs',
+            url: 'https://tailwind-admin.com/components/shadcn/dialogs',
+          },
+          {
+            id: uniqueId(),
+            name: 'Drawer',
+            url: 'https://tailwind-admin.com/components/shadcn/drawer',
+          },
+          {
+            id: uniqueId(),
+            name: 'Datepicker',
+            url: 'https://tailwind-admin.com/components/shadcn/datepicker',
+          },
+        ],
+      },
+    ],
+  },
+  {
+    heading: 'FORM ELEMENTS',
+    children: [
+      {
+        name: 'Shadcn Forms',
+        id: uniqueId(),
+        icon: 'solar:banknote-2-linear',
+        children: [
+          {
+            id: uniqueId(),
+            name: 'Button',
+            url: 'https://tailwind-admin.com/components/shadcn/buttons',
+          },
+          {
+            id: uniqueId(),
+            name: 'Input',
+            url: 'https://tailwind-admin.com/components/shadcn/input',
+          },
+          {
+            id: uniqueId(),
+            name: 'Select',
+            url: 'https://tailwind-admin.com/components/shadcn/select',
+          },
+          {
+            id: uniqueId(),
+            name: 'Checkbox',
+            url: 'https://tailwind-admin.com/components/shadcn/checkbox',
+          },
+          {
+            id: uniqueId(),
+            name: 'Radio',
+            url: 'https://tailwind-admin.com/components/shadcn/radio',
+          },
+          {
+            id: uniqueId(),
+            name: 'Combobox',
+            url: 'https://tailwind-admin.com/components/shadcn/combobox',
+          },
+          {
+            id: uniqueId(),
+            name: 'Command',
+            url: 'https://tailwind-admin.com/components/shadcn/command',
+          },
+        ],
+      },
+      {
+        name: 'Form layouts',
+        id: uniqueId(),
+        icon: 'solar:documents-linear',
+        children: [
+          {
+            id: uniqueId(),
+            name: 'Form Examples',
+            url: 'https://tailwind-admin.com/components/shadcn/generated-forms/form-examples',
+          },
+          {
+            id: uniqueId(),
+            name: 'Repeater Forms',
+            url: 'https://tailwind-admin.com/components/shadcn/generated-forms/repeater-forms',
+          },
+          {
+            id: uniqueId(),
+            name: 'Form Wizard',
+            url: 'https://tailwind-admin.com/components/shadcn/generated-forms/form-wizard',
+          },
+        ],
+      },
+    ],
+  },
   {
     heading: 'Widgets',
     children: [

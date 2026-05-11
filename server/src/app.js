@@ -1,22 +1,22 @@
 const express = require('express');
 const cors = require('cors');
 require('dotenv').config();
+require('./config/db');
+const { verifyToken } = require('./middleware/auth');
 
 const app = express();
 
 app.use(cors());
 app.use(express.json());
 
-// app.use('/api/auth', require('./routes/auth'));
+app.use('/api/auth',    verifyToken, require('./routes/auth'));
 // app.use('/api/projects', require('./routes/projects'));
 // app.use('/api/tasks', require('./routes/tasks'));
 // app.use('/api/analytics', require('./routes/analytics'));
 // app.use('/api/admin', require('./routes/admin'));
 
 
-app.get('/api/health', (req, res) => {
-  res.json({ status: 'ok', message: 'API is running' });
-});
+
 
 // Global error handler
 app.use((err, req, res, next) => {

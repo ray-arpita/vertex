@@ -105,9 +105,9 @@ main {
   --card-foreground: var(--link);
   --popover: var(--white);
   --popover-foreground: var(--link);
-  --primary: var(--dark);
+  --primary: #5d87ff;
   --primary-foreground: var(--white);
-  --secondary: #ECF4EE;
+  --secondary: #49beff;
   --secondary-foreground: var(--white);
   --muted: #f5f5f5;
   --muted-foreground: #5a6a85bf;
@@ -138,7 +138,7 @@ main {
   --warning: #f6b51e;
   --error: #ef4444;
   --white: #ffffff;
-  --dark: #000000;
+  --dark: #1c2536;
   --bodytext: #5a6a85bf;
 
   /* Light Variants */
@@ -165,9 +165,9 @@ main {
   --card-foreground: var(--white);
   --popover: #333f55;
   --popover-foreground: var(--white);
-  --primary: #B7E5CD;
+  --primary: #5d87ff;
   --primary-foreground: var(--white);
-  --secondary: #ECF4EE;
+  --secondary: #49beff;
   --secondary-foreground: var(--white);
   --muted: #2a3851;
   --muted-foreground: #7c8fac;
@@ -197,7 +197,7 @@ main {
   --warning: #f6b51e;
   --error: #ef4444;
   --white: #ffffff;
-  --dark: #000000;
+  --dark: #1c2536;
   --bodytext: #5a6a85bf;
 
   /* Light Variants */
